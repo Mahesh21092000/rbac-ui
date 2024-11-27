@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "name": "Mahesh",
+      "role": "Admin",
+      "active": true,
+      "id": "1"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Mahes"
+    },
+    {
+      "id": "2",
+      "name": "User "
+    }
+  ]
+}

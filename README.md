@@ -1,96 +1,70 @@
+# Getting Started with Create React App
 
-Admin Dashboard for Role-Based Access Control (RBAC)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Project Overview
+## Available Scripts
 
-This project is an Admin Dashboard designed for managing users, roles, and permissions using Role-Based Access Control (RBAC) principles. The application provides a secure and user-friendly interface where administrators can assign roles, define permissions, and efficiently manage users.
+In the project directory, you can run:
 
-Features:
+### `npm start`
 
-1.User Management:
-View and manage the list of users.
-Add, edit, or delete users.
-Assign roles to users.
-Manage user statuses (Active/Inactive).
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-2.Role Management:
-Create and edit roles.
-Assign permissions to roles (e.g., Read, Write, Delete).
-View role details and associated permissions.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-3.Dynamic Permissions:
-Easily modify permissions for specific roles.
-Display permissions clearly for better visibility and understanding.
+### `npm test`
 
-4.Responsive Design:  Adapts seamlessly to different devices (desktop, tablet, mobile).
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-5.CRUD Operations:  Implemented for both users and roles, with real-time updates.
+### `npm run build`
 
-Technical Stack
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Frontend:
-React.js
-React Router DOM
-Axios
-React-Toastify
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Backend:
-JSON Server (mock backend for development purposes).
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-setup Instructions:
-Follow these steps to set up and run the project locally.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-1. Clone the Repository
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
--git clone <repository-url>
--cd rbac-ui
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-2. Install Dependencies
-Run the following command to install all necessary dependencies:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
--npm install
+## Learn More
 
-3. Set Up JSON Server
-The project uses a mock backend powered by JSON Server to fetch user and role data.
-Create a file named db.json in the project directory and add the following data:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
--{
-  "users": [
-    {
-      "name": "Mahesh",
-      "role": "Admin",
-      "active": true,
-      "id": "1"
-    },
-    {
-      "name": "User",
-      "role": "User ",
-      "active": false,
-      "id": "2"
-    }
-  ],
-  "roles": [
-    {
-      "id": "1",
-      "name": "Mahes"
-    },
-    {
-      "id": "2",
-      "name": "User "
-    }
-  ]
-}
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Start the JSON Server with the following command:
- --npx json-server --watch db.json --port 3001
+### Code Splitting
 
-The server will run at http://localhost:3001.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-4. Start the React Development Server
-In another terminal, start the React app:
+### Analyzing the Bundle Size
 
--npm start
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
